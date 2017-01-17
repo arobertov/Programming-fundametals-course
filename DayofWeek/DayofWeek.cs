@@ -32,6 +32,7 @@ namespace DayofWeek
                 default:
                     Console.WriteLine("Error");
                     break;
+					//.... Error break code ....//
             }
 
         }
