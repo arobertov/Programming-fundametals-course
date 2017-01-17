@@ -1,8 +1,4 @@
-# SoftUniExercises
-<<<<<<< .mine
-Here is my exercises for Softumi training.
- !!! --- add conflict here !!! 
-=======
-Here is my exercises for Softumi training.
+
+Here is my exercises for Softuni training.
 This is remote change it.
->>>>>>> .theirs
+
