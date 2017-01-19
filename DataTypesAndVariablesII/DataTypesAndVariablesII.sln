@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerNumbers", "IntegerNumbers\IntegerNumbers.csproj", "{8E5F4DE7-9CB3-4BFD-88BA-99E3B50EFF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatNumbers", "FloatNumbers\FloatNumbers.csproj", "{7440A6CF-D2FF-4BE6-BF5D-526F17988B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharAndString", "CharAndString\CharAndString.csproj", "{BB55583F-EC78-4FD1-9752-83C69CE54D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaPhoto", "TheaPhoto\TheaPhoto.csproj", "{BA29614B-F141-48BA-8C62-2FACCDBE52C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E5F4DE7-9CB3-4BFD-88BA-99E3B50EFF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5F4DE7-9CB3-4BFD-88BA-99E3B50EFF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5F4DE7-9CB3-4BFD-88BA-99E3B50EFF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5F4DE7-9CB3-4BFD-88BA-99E3B50EFF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7440A6CF-D2FF-4BE6-BF5D-526F17988B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7440A6CF-D2FF-4BE6-BF5D-526F17988B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7440A6CF-D2FF-4BE6-BF5D-526F17988B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7440A6CF-D2FF-4BE6-BF5D-526F17988B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB55583F-EC78-4FD1-9752-83C69CE54D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB55583F-EC78-4FD1-9752-83C69CE54D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB55583F-EC78-4FD1-9752-83C69CE54D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB55583F-EC78-4FD1-9752-83C69CE54D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA29614B-F141-48BA-8C62-2FACCDBE52C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA29614B-F141-48BA-8C62-2FACCDBE52C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA29614B-F141-48BA-8C62-2FACCDBE52C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA29614B-F141-48BA-8C62-2FACCDBE52C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
