@@ -5,9 +5,8 @@ namespace BooleanVariable
     {
         static void Main(string[] args)
         {
-            bool boolRecord;
             string stringRecord = Console.ReadLine();
-            boolRecord = Convert.ToBoolean(stringRecord);
+            bool boolRecord = Convert.ToBoolean(stringRecord);
             Console.WriteLine(boolRecord ? "Yes":"No");
         }
     }

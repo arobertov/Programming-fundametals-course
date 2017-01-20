@@ -11,7 +11,7 @@ namespace FloatNumbers
         static void Main(string[] args)
         {
             decimal var1 = 3.141592653589793238M;
-            double var2 = 1.60217657F;
+            double var2 = 1.60217657;
             decimal var3 = 7.8184261974584555216535342341M;
 
             Console.WriteLine(var1);
