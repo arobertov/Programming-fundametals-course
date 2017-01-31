@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArrayManipulator
+{
+    class Program
+    {
+        static void Main()
+        {
+            var lists = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            while (true)
+            {
+               var input = Console.ReadLine().Split(' ').ToList();
+               
+               var commandString = input[0];
+               input.RemoveAt(0);
+                var digit = input.Select(int.Parse).ToList();
+                switch (commandString)
+                {
+                    case "add":  lists.Insert(digit[0],digit[1]);
+                        break;
+
+                    case "addMany":
+                        for (int i = 1; i < digit.Count; i++)
+                        {
+                            lists.Insert(digit[0],digit[i]);
+                        }
+                        break;
+
+                    case "contains":
+                        if (lists.Contains(digit[0])) Console.WriteLine(lists[0]); ;
+                        break;
+
+                    case "remove": lists.RemoveAt(digit[0]);
+                        break;
+
+                    case "shift":
+                        break;
+
+                    case "sumPairs":
+                        break;
+
+                    case "print":
+                        break;
+                }
+                Console.WriteLine(string.Join(" ",lists));
+            }
+
+            
+        
+        }
+    }
+}
